@@ -6,11 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FormValidator Demo</title>
 
-    <script async src="../dist/main.js"></script>
+    <script async src="main.js"></script>
 </head>
 <body>
-    <form action="#">
-        <input type="text">
+    <form action="#" class="form j-fv-form" novalidate>
+        <div class="form__section j-fv-group">
+            <label for="username">ФИО</label>
+            <input
+                name="username"
+                type="text"
+                placeholder="ФИО"
+            />
+        </div>
+        <div class="form__section j-fv-group">
+            <label for="email">Почта</label>
+            <input
+                name="email"
+                type="email"
+                placeholder="email"
+            />
+        </div>
+
+        <input type="submit" value="Проверить">
     </form>
 </body>
 </html>

@@ -1,0 +1,7 @@
+node_modules/
+app/common/data/**/*.json
+dist/
+ui/
+app/components/**/ui.js
+*.config.*
+package*

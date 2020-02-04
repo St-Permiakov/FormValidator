@@ -1,0 +1,23 @@
+{
+    "extends": ["airbnb-base"],
+    "globals": {
+        "ymaps": true,
+        "window": true
+    },
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/ui.js", "**/ui.js"]}],
+        "max-len": [2, 150],
+        "radix": 0,
+        "no-new": 0,
+        "no-console": 0,
+        "no-plusplus": 0,
+        "no-param-reassign": 0,
+        "import/prefer-default-export": 0,
+        "no-prototype-builtins": 0,
+        "no-underscore-dangle": 0
+    }
+}

@@ -36,5 +36,6 @@ export const config = {
     errorMessages: {
         [names.alpha]: 'Используйте только буквы, дефис и пробел',
         [names.email]: 'Введите корректный email',
+        [names.phone]: 'Введите корректный номер телефона',
     },
 };
